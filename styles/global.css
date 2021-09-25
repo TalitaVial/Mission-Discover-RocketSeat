@@ -102,3 +102,14 @@ button.outlined,
   color: var(--blue);
   border: .2rem solid var(--blue);
 }
+
+button.red, .button.red{
+  background: var(--red);
+  color: var(--white);
+
+}
+
+button.gray,.button.gray{
+  background: var(--gray-light);
+  color: var(--gray-dark);
+}
