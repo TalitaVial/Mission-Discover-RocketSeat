@@ -1,0 +1,22 @@
+.modal-wrapper{
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+  background: rgba(4, 9, 17, .8);
+}
+
+.modal-wrapper .modal{
+  background: var(--white);
+  width: min(59rem, 90%);
+  margin: auto;
+
+  border-radius: .8rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+
+  padding: 6.4rem;
+}
