@@ -12,7 +12,7 @@ route.get('/room/:room', (req, res) => res.render('room'))
 
 //formato do informação que deve ser passada pelo formulário
 
-route.post('/room/:room/:question/:action', QuestionController.index)
-route.post('/room/create-room', RoomController.create)
+route.post('/question/:room/:question/:action', QuestionController.index)
+route.post('/create-room', RoomController.create)
 
 module.exports = route

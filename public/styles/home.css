@@ -17,7 +17,7 @@ header {
 #bg {
   grid-area: left;
   background: url('/images/people.svg') no-repeat top/contain;
-  background-position-x: -2rem;
+  background-position-x: .10rem;
 }
 
 main {
