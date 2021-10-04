@@ -16,6 +16,7 @@
 - NodeJS
 - EJS
 - Express
+- Sqlite
 
 ## 💻 Sobre o Projeto: 
 Rocket.Q é uma aplicação que permite a interação através de perguntas e repostas, a aplicação permite ainda a criação de salas para a interação de usuarios e o criador da sala pode gerenciar as perguntas marcando como lidas e ou excluindo as perguntas.
